@@ -4,7 +4,7 @@ author: bofei
 
 /**
  * @name SNS
- * @namespace ÌÔ½­ºşÈ«¾ÖÃüÃû¿Õ¼ä
+ * @namespace æ·˜æ±Ÿæ¹–å…¨å±€å‘½åç©ºé—´
  */
 
 
@@ -29,7 +29,7 @@ author: bofei
             this.namespace('util', 'data','widget','sys', 'app');
             return this;
         },
-        //ÃüÃû¿Õ¼ä
+        //å‘½åç©ºé—´
         namespace: function() {
             return K.namespace.apply(this,arguments);
         },
@@ -48,7 +48,7 @@ author: bofei
     });
 
 
-    //Æô¶¯SNS
+    //å¯åŠ¨SNS
     SNS._init({load:{t:20110415}});
     win.SNS=SNS;
 
@@ -56,7 +56,7 @@ author: bofei
 
 
 
-//Ä£¿é¹ÜÀí
+//æ¨¡å—ç®¡ç†
 (function(S, K){
 
 
@@ -73,7 +73,7 @@ author: bofei
 
     Mod.prototype={
         addParent:function(mod){
-            //ĞèÒª½â¾öÑ­»·ÒıÓÃÎÊÌâ
+            //éœ€è¦è§£å†³å¾ªç¯å¼•ç”¨é—®é¢˜
            if(mod.name==this.name)return;
             this.parents.push(mod);
             mod.childs.push(this);
@@ -235,7 +235,7 @@ author: bofei
              K.log("load "+name)
 
              var self=this;
-            // ie ÏÂ²¢·¢¼ÓÔØ£¬js¿ÉÄÜ²»»áÔËĞĞ
+            // ie ä¸‹å¹¶å‘åŠ è½½ï¼Œjså¯èƒ½ä¸ä¼šè¿è¡Œ
             window.setTimeout(function(){
                 K.getScript(self.nameToPath(name),success);
             }, 0)
