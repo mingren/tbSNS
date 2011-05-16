@@ -1,0 +1,327 @@
+#J_FeedEditor{
+    border-top:solid 1px #eee;
+}
+
+.feededitor {
+    background: #f5f5f5;
+    padding: 10px 56px 10px 20px;
+}
+
+.feededitor .wrap{
+ position: relative;
+ zoom:1;
+  z-index: 15;
+ 
+}
+.feededitor .sns-nf{
+    border:1px solid #c5c5c5;
+    overflow: hidden;
+    -moz-border-radius:2px;
+    border-radius:2px ;
+    -webkit-border-radius:2px ;
+}
+.feededitor .icon-topic{
+    background:url(http://img03.taobaocdn.com/tps/i3/T1OR89XipsXXXXXXXX-20-16.png) 0 0 no-repeat;
+}
+.feededitor .icon-goods{
+    background:url(http://img04.taobaocdn.com/tps/i4/T1Nl89XiBsXXXXXXXX-18-16.png) 0 0 no-repeat;
+}
+
+
+.feededitor .sns-nf .b{
+    -moz-border-radius:2px;
+    border-radius:2px ;
+    -webkit-border-radius:2px ;
+    border-top: #e5e5e5 solid 1px ;
+    border-left: #e5e5e5 solid 1px;
+    zoom:1;
+}
+
+.feededitor .f-area{
+    width: 100%;
+    height: 27px;
+    color: #666666;
+    overflow: auto;
+    border:none;
+    padding: 0;
+    line-height: 20px;
+
+    background-image: none;
+    background-color: #fff;
+
+
+
+}
+.feededitor  .act{
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    line-height: 20px;
+    margin-top: 8px;
+}
+
+.feededitor  .act .icon-insert-face{
+ background: url(http://img02.taobaocdn.com/tps/i2/T1N3eXXixkXXXXXXXX-18-16.png) 0 0 no-repeat;
+}
+
+.feededitor .act .icon-insert-img{
+    background: url(http://img01.taobaocdn.com/tps/i1/T1qG1XXm4oXXXXXXXX-20-16.png) 0 0 no-repeat;
+}
+.feededitor .act .upload{
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    overflow: hidden;
+    top:0;
+    left: 50px;
+    opacity:0;
+    filter:alpha(opacity=0);
+    cursor: pointer;
+    z-index: 1000;
+}
+.feededitor .act .upload input{
+    cursor:pointer;
+    height:25px;
+    width:0;
+    width:60px\0;
+}
+
+.feededitor .act .sns-icon{
+    margin-right: 5px;
+    cursor: pointer;
+}
+.feededitor .act .skin-red{
+
+    right:0px;
+    line-height:28px;
+
+    position:absolute;
+    top:0px;
+    background: url(http://img02.taobaocdn.com/tps/i2/T1kDX9Xm0jXXXXXXXX-67-28.png) no-repeat;
+    display: block;
+    width: 68px;
+    height: 30px;
+    text-align: center;
+    color:#fff;
+
+}
+.feededitor .act .shownum{
+    height: 22px;
+    position: absolute;
+    right: 80px;
+    top: 2px;
+    width: 80px;
+    color: #ccc;
+    text-align: right;
+}
+
+.feededitor .act .skin-red a,.feededitor .act .skin-red a:visited{
+    text-decoration: none;
+    color:#fff;
+    font-weight:bold;
+}
+.feededitor .act .rsync{
+    color:#B3B3B3;
+    display:block;
+    right:70px;
+    position:absolute;
+    top:5px;
+}
+.feededitor .act .rsync input{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.feededitor .error-msg  {
+    background:none repeat scroll 0 0 #FFFFFF;
+    border:1px solid #E0E0E0;
+    height:20px;
+    line-height:20px;
+
+    padding:2px 5px;
+    position:absolute;
+    left:428px;
+
+    width:60px;
+    z-index:10;
+    display: none;
+    bottom:-15px;
+}
+.feededitor .error-msg .arrow {
+
+    background-image: url("http://img.taobaocdn.com/tps/i6/T1iElEXlRaXXXXXXXX-950-66.png");
+    background-repeat: no-repeat;
+
+    background-position:-482px -42px;
+    display:block;
+    height:5px;
+    position:absolute;
+    right:50%;
+    top:-5px;
+    width:9px;
+}
+.feededitor .tips{
+    background: url(http://img01.taobaocdn.com/tps/i1/T1IKJIXlVHXXXXXXXX-298-27.png) 0 0 no-repeat;
+    text-align: right;
+    height: 30px;
+    color: #b0b0b0;
+    line-height: 32px;
+}
+.feededitor .tips .num{
+    font-size:16px;
+}
+
+.feededitor  .sub-tips{
+    position: absolute;
+    bottom:-35px;
+    right:0px;
+    display: none;
+    width: 160px;
+
+}
+.feededitor  .sub-tips {
+    margin:2px;
+    border:1px solid #f9b967;
+    background:#ffffe1;
+    padding:5px;
+    margin-top:-5px;
+    z-index: 1000;
+}
+
+.feededitor  .sub-tips i {
+    background:url("http://a.tbcdn.cn/app/sns/theme/img/horn_top.png") no-repeat scroll 0 0 transparent;
+    display:block;
+    height:4px;
+    left:120px;
+    overflow:hidden;
+    position:absolute;
+    top:-4px;
+    width:9px;
+
+}
+
+.feededitor  .sub-tips p {
+    padding:6px 10px;
+}
+
+.feededitor  .sub-tips p a {
+    margin-left:5px;
+}
+
+.feededitor  .sub-tips .sns-icon {
+    position:absolute;
+    top:5px;
+    right:4px;
+}
+
+
+/* topic */
+.topiclist {
+    padding:5px;
+     background: url("http://a.tbcdn.cn/app/sns/img/popup_bg.png") repeat scroll 0 50% transparent ;
+    display: none;
+    -moz-border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    bottom:-210px;
+    left:100px;
+    width: 200px;
+}
+
+.topiclist .wrap-border{
+    padding: 5px 0;
+    background-color: #fff;
+    position: relative;
+    border: solid 1px #666;
+
+}
+.topiclist .wrap-border .arrow{
+    position: absolute;
+    top:-8px;
+    left:20px;
+    display: block;
+    width: 16px;
+    height: 9px;
+    background: url("http://img03.taobaocdn.com/tps/i3/T1188.XaBEXXXXXXXX-16-9.gif") 0 0  no-repeat;
+
+}
+.topiclist .newone{
+    border-top:#e5e5e5 solid 1px ;
+    padding-top: 5px;
+}
+.topiclist li a,.topiclist li a:visited{
+    display: block;
+    width: 180px;
+    height:23px;
+    line-height: 23px;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    color: #1188cc;
+}
+.topiclist li a:hover{
+    background: #1188cc;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.goodslink {
+    padding:5px;
+    background: url("http://a.tbcdn.cn/app/sns/img/popup_bg.png") repeat scroll 0 50% transparent ;
+    display: none;
+    -moz-border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    width: 400px;
+    position: absolute;
+     bottom: -95px;
+    left:150px;
+    display: none;
+}
+
+.goodslink .wrap-border{
+    padding: 5px 0;
+    background-color: #fff;
+    position: relative;
+    border: solid 1px #666;
+    padding: 20px;
+
+}
+.goodslink .wrap-border .arrow{
+    position: absolute;
+    top:-8px;
+    left:20px;
+    display: block;
+    width: 16px;
+    height: 9px;
+    background: url("http://img03.taobaocdn.com/tps/i3/T1188.XaBEXXXXXXXX-16-9.gif") 0 0  no-repeat;
+
+}
+
+.goodslink input{
+    width: 354px;
+    height: 27px;
+    line-height: 27px;
+}
+.goodslink .act{
+    height: 29px;
+    margin: 5px 0 0 0;
+    text-align: right;
+}
+.goodslink .act span{
+    margin-right: 10px;
+}
+.goodslink .act .confirm{
+    display: inline-block;
+    zoom:1;
+    width: 45px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    border: solid 1px  #aaa;
+    background: #ebebeb;
+    color: #000;
+}
+.goodslink .act .confirm:hover{
+    text-decoration: none;
+}
+.goodslink .onlyt{
+    color: #737373;
+}

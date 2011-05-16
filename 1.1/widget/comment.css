@@ -1,0 +1,200 @@
+
+.comment-widget .face,
+.comment-widget .arrow {
+    background-image:url(http://img01.taobaocdn.com/tps/i1/T1OFJHXe0JXXXXXXXX-500-340.png);
+    background-repeat:no-repeat;
+}
+.comment-widget{
+
+    margin-top:7px;
+    background-color: #f7f7f7;
+}
+.comment-widget .comment-edit{
+    zoom:1;
+}
+
+.comment-widget .J_PostComment{
+    font-weight: normal;
+    font-size: 12px;
+    color: #fff;
+    /*  background: url(http://img02.taobaocdn.com/tps/i2/T1gYGXXb0bXXXXXXXX-75-29.png) 0 0 no-repeat;
+    font-size: 14px;
+      width: 75px;
+      height:29px;
+      padding: 0;
+      font-weight: bold;
+      margin-left: 5px;
+      line-height: 29px;
+      text-decoration: none;
+    */
+}
+/*
+.comment-widget .act{
+    height:28px;
+}
+.comment-widget .btn {
+    background: none;
+}
+*/
+.comment-widget .btn:hover{
+     text-decoration: none;
+}
+
+.comment-widget .btn a:hover{
+    text-decoration: none;
+
+}
+
+.comment-widget .arrow{
+    background: url(http://img01.taobaocdn.com/tps/i1/T1NSXFXf0rXXXXXXXX-9-5.png) no-repeat 0 0;
+    position: absolute;
+    top:-5px;
+    left:24px;
+    display:inline-block;
+    font-size:0;
+    height:5px;
+    position:absolute;
+    width:9px;
+    margin: 0;
+}
+
+
+.comment-widget .comment-list li{
+    zoom:1;
+    border-top:dashed 1px #eaeaea ;
+    overflow: hidden;
+}
+.comment-widget .comment-list li.more{
+    text-align: right;
+    padding:7px;
+    background-image: none;
+}
+.comment-widget .comment-list .detail{
+    padding-left: 70px;
+}
+.comment-widget .info,
+.comment-widget li{
+    padding:7px;
+    background:#f6f6f6;
+    margin-bottom:2px;
+}
+
+.comment-widget .comment-add p{
+    line-height: 20px;
+}
+.comment-widget .comment-add p .btn{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
+.comment-widget li .clogo {
+    float:left;
+    margin-right:10px;
+}
+
+.comment-widget .opt {
+    float:right;
+}
+
+.comment-widget .opt a {
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.comment-widget .opt i {
+    font-style:normal;
+    color:#999;
+    margin:0 5px;
+    display:inline-block;
+}
+
+.comment-widget .b{
+    zoom:1;
+}
+.comment-widget textarea {
+
+    width:100%;
+    border:1px solid #c2c2c2;
+    line-height:20px;
+    height: 40px;
+    word-wrap:break-word;
+    /* background:url("http://a.tbcdn.cn/app/sns/img/input_bg.png") no-repeat scroll 0 0 #fff;
+     background-color: #fff;
+    */
+    overflow: auto;
+
+}
+
+.comment-widget .comment-add .act {
+    padding-bottom:5px;
+    padding-top: 3px;
+}
+
+.comment-widget .skin-blue {
+    float:right;
+}
+.comment-widget .skin-blue .btn{
+    margin-left: 5px;
+}
+
+.comment-widget .face {
+
+
+    background: url(http://img02.taobaocdn.com/tps/i2/T1N3eXXixkXXXXXXXX-18-16.png) 0  0px no-repeat;
+    padding-left: 21px;
+
+    color: #666;
+    margin-right: 14px;
+    padding: 1px 0 1px 21px;
+}
+
+.comment-widget label {
+    margin-left:5px;
+}
+
+.comment-widget label input {
+    vertical-align:middle;
+    margin-right:2px;
+}
+.comment-widget .comment-list .name{
+    margin-right:5px;
+}
+
+.fd-reply .comment-widget{
+    border: solid 1px #dfdfdf;
+    padding:10px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+
+}
+.sns-reply .comment-widget {
+    background-color: #fff;
+}
+.sns-reply .comment-widget textarea{
+    width: 99%;
+}
+
+.comment-widget .checkcode{
+    background-color: #ffffcc;
+    border: solid 1px #ccc;
+    padding: 5px 10px;
+    margin: 5px 0;
+
+}
+.comment-widget .checkcode input{
+    margin: 0 5px 0 0 ;
+}
+.sns-reply .comment-widget .comment-list {
+    margin-top: 30px;
+}
+
+.sns-reply .comment-widget .comment-list li{
+    padding: 10px;
+    margin: 10px 0 0 0 ;
+    border-bottom: none;
+}
+
+.fd-reply .comment-widget .comment-list .detail {
+    padding-left: 40px;
+}

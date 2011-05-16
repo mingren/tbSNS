@@ -1,0 +1,214 @@
+.feededitor {
+    position: relative;
+    z-index: 2;
+    clear: both;
+
+}
+
+.feededitor .wrap{
+
+
+    position:relative;
+    padding-left: 5px;
+
+    zoom:1;
+
+}
+.feededitor .wrap .arr{
+    background: url(http://img04.taobaocdn.com/tps/i4/T1ku5bXlRbXXXXXXXX-7-10.png) 0 0 no-repeat;
+    width:7px;
+    height:10px;
+    position: absolute;
+    top:7px;
+    left:0px;
+    overflow: hidden;
+}
+.feededitor .sns-nf{
+    border: 1px solid #bbb;
+    overflow: hidden;
+    zoom:1;
+}
+.feededitor .sns-nf .b{
+     border-top: #e2e2e2 solid 1px ;
+    border-left: #e2e2e2 solid 1px;
+    zoom:1;
+    padding: 2px;
+}
+
+.feededitor .f-area{
+    width: 100%;
+    height: 27px;
+    color: #999;
+    overflow: auto;
+    border:none;
+    padding: 0;
+    line-height: 18px;
+    background: none;
+    background-color: #fff;
+}
+.feededitor .open .f-area {
+    color: #333;
+}
+.feededitor  .act{
+    height: 22px;
+    overflow: hidden;
+    position: relative;
+    line-height: 20px;
+    margin-top: 4px;
+}
+
+.feededitor  .act .icon-insert-face{
+ background: url(http://img02.taobaocdn.com/tps/i2/T1N3eXXixkXXXXXXXX-18-16.png) 0 0 no-repeat;
+}
+
+.feededitor .act .icon-insert-img{
+    background: url(http://img01.taobaocdn.com/tps/i1/T1qG1XXm4oXXXXXXXX-20-16.png) 0 0 no-repeat;
+}
+.feededitor .act .upload{
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    overflow: hidden;
+    top:0;
+    left: 50px;
+    opacity:0;
+    filter:alpha(opacity=0);
+    cursor: pointer;
+    z-index: 1000;
+}
+.feededitor .act .upload input{
+    cursor:pointer;
+    height:25px;
+    width:0;
+    width:60px\0;
+}
+
+.feededitor .act .sns-icon{
+    margin-right: 5px;
+    cursor: pointer;
+}
+.feededitor .act .skin-red{
+
+    right:0px;
+    line-height:19px;
+
+    position:absolute;
+    top:2px;
+    background: url(http://img02.taobaocdn.com/tps/i2/T1rlh9XfBvXXXXXXXX-51-20.png) no-repeat;
+    display: block;
+    width: 52px;
+    height: 22px;
+    text-align: center;
+    color:#fff;
+
+
+}
+.feededitor .act .submit{
+    font-weight:bold;
+}
+.feededitor .act .shownum{
+    height: 22px;
+    position: absolute;
+    right: 60px;
+    top: 2px;
+    width: 130px;
+    color: #ccc;
+    text-align: right;
+}
+
+.feededitor .act .skin-red a,.feededitor .act .skin-red a:visited{
+    text-decoration: none;
+    color:#fff;
+}
+.feededitor .act .rsync{
+    color:#B3B3B3;
+    display:block;
+    right:70px;
+    position:absolute;
+    top:5px;
+}
+.feededitor .act .rsync input{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.feededitor .error-msg  {
+    background:none repeat scroll 0 0 #FFFFFF;
+    border:1px solid #E0E0E0;
+    height:20px;
+    line-height:20px;
+
+    padding:2px 5px;
+    position:absolute;
+    left:428px;
+
+    width:60px;
+    z-index:10;
+    display: none;
+    bottom:-15px;
+}
+.feededitor .error-msg .arrow {
+    
+    background-image: url("http://img.taobaocdn.com/tps/i6/T1iElEXlRaXXXXXXXX-950-66.png");
+    background-repeat: no-repeat;
+
+    background-position:-482px -42px;
+    display:block;
+    height:5px;
+    position:absolute;
+    right:50%;
+    top:-5px;
+    width:9px;
+}
+.feededitor .tips{
+    background: url(http://img01.taobaocdn.com/tps/i1/T1IKJIXlVHXXXXXXXX-298-27.png) 0 0 no-repeat;
+    text-align: right;
+    height: 30px;
+    color: #b0b0b0;
+    line-height: 32px;
+}
+.feededitor .tips .num{
+    font-size:16px;
+}
+
+.feededitor  .sub-tips{
+    position: absolute;
+    bottom:-35px;
+    right:0px;
+    display: none;
+    width: 160px;
+
+}
+.feededitor  .sub-tips {
+    margin:2px;
+    border:1px solid #f9b967;
+    background:#ffffe1;
+    padding:5px;
+    margin-top:-5px;
+    z-index: 1000;
+}
+
+.feededitor  .sub-tips i {
+    background:url("http://a.tbcdn.cn/app/sns/theme/img/horn_top.png") no-repeat scroll 0 0 transparent;
+    display:block;
+    height:4px;
+    left:120px;
+    overflow:hidden;
+    position:absolute;
+    top:-4px;
+    width:9px;
+
+}
+
+.feededitor  .sub-tips p {
+    padding:6px 10px;
+}
+
+.feededitor  .sub-tips p a {
+    margin-left:5px;
+}
+
+.feededitor  .sub-tips .sns-icon {
+    position:absolute;
+    top:5px;
+    right:4px;
+}

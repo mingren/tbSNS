@@ -1,0 +1,1282 @@
+
+/**
+ * new feeds 2010.06.28
+ * author shiran
+ * modified by shiran 2010.08.03
+*/
+
+.fd,
+.fd .item,
+.fd .matter,
+.fd .inner
+{
+    overflow:hidden;
+    zoom:1;
+    line-height:20px;
+
+}
+.fd .item{
+    background:#fff;
+    text-align: left;
+}
+
+.fd .blog-txt .hd,
+.fd .album-photo,
+.fd .album-photo div,
+.fd .start,
+.fd .share-video .left,
+.fd .share-shop .left,
+.fd .fd-t .ph a,
+.fd-t .arrow {
+    background-image:url(http://img01.taobaocdn.com/tps/i1/T1OFJHXe0JXXXXXXXX-500-340.png);
+    background-repeat:no-repeat;
+}
+.fd-t .arrow {
+    background-image:url(http://img01.taobaocdn.com/tps/i1/T1OFJHXe0JXXXXXXXX-500-340.png);
+    background-repeat:no-repeat;
+    display: none;
+}
+
+.fd .time,
+.fd-t .from {
+    color:#b0b0b0;
+}
+.fd .from {
+    margin-left:5px;
+}
+
+.fd img {
+    vertical-align:top;
+}
+
+.fd .q {
+    color:#9ea1a3;
+}
+
+.fd .name {
+    font-weight:700;
+}
+
+.fd .name img {
+    vertical-align:middle;
+    margin-right:2px;
+}
+
+.fd .title {
+    margin-bottom:5px;
+    font-size: 14px;
+    line-height:22px;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+.fd .title img{
+    vertical-align: middle;
+
+}
+.fd .extra  .time{
+    float:left;
+}
+.fd .extra {
+    font-size:12px;
+    margin-top:5px;
+    height:20px;
+}
+.fd .fd-vote .extra{
+    margin-top: 0;
+}
+
+.fd i {
+    color:#999;
+    margin:0 10px;
+    font-style:normal;
+}
+
+
+.fd .item {
+    margin-bottom:10px;
+    /*  position:relative;*/
+    border-bottom: solid 1px #efefef;
+    padding-bottom: 10px;
+}
+
+.fd .avatar {
+    width:60px;
+    height:80px;
+    padding-right:10px;
+    float:left;
+}
+
+.fd .extra,
+.fd .fd-reply {
+    margin-left:70px;
+}
+.fd .fd-reply .comment-list{
+    zoom:1;
+}
+
+.fd .left {
+    float:left;
+    margin-right:10px;
+}
+
+/*??????*/
+.fd .fd-opt {
+    display:inline-block;
+    visibility:hidden;
+    float:right;
+    margin-left:10px;
+    margin-top:2px;
+}
+
+.fd .fd-opt a {
+    vertical-align:top;
+    margin-left:4px !important/*reset*/;
+}
+
+.fd .item:hover .fd-opt {
+    visibility:visible;
+}
+.fd .hover .fd-opt{
+    visibility:visible;
+}
+
+.fd .inner {
+    margin-top:10px;
+    overflow: hidden;
+}
+
+/*?ュ?*/
+
+.fd .blog-txt {
+    width:475px;
+    _width:auto;
+}
+
+.fd .blog-txt .hd {
+    height:20px;
+    background-position:0 -295px;
+    border: 0;
+}
+
+.fd .blog-txt .bd {
+    
+    margin-left:3px;
+    padding-top:0;
+    word-break:break-all;
+    word-wrap:break-word;
+    background-color: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    padding: 10px;
+    border-top:none;
+}
+
+/*?稿?*/
+
+.fd .album-photo {
+    display:inline-block;
+    background-position:0 -43px;
+    *clear:both;
+    *float:left;
+}
+
+.fd .album-photo div {
+    margin-left:10px;
+    height:120px;
+    padding:3px 5px 7px 5px;
+    display:inline-block;
+    background-position:right -43px;
+    *clear:both;
+    *float:left;
+}
+
+.fd .album-photo div a {
+    margin-right:5px;
+}
+
+/*瑙??*/
+.fd .share-video{
+    height: auto;
+}
+.fd .share-video .left {
+    width:130px;
+    height:100px;
+    text-align:center;
+    overflow:hidden;
+    position:relative;
+    background-position:0 -183px;
+}
+
+.fd .share-video .left img {
+    margin:5px;
+}
+
+.fd .start {
+    width:42px;
+    height:42px;
+    background-position:-129px -184px;
+    display:inline-block;
+    position:absolute;
+    left:45px;
+    top:26px;
+}
+
+/*搴??*/
+
+.fd .share-shop .left {
+    background-position:-302px -183px;
+    width:177px;
+    border:1px solid #e4e4e4;
+    overflow:hidden;
+    padding:22px 5px 5px;
+}
+
+.fd .share-shop .left img {
+    float:left;
+
+}
+.fd .share-shop .left p img{
+    float:none;
+}
+.fd .share-shop  .txt .q{
+    word-break:break-all; /* ie & webkit */
+    word-wrap:break-word; /* ff3.5 * */
+    float:left;
+    width:270px;
+
+}
+
+/*甯????/
+
+.fd .tiao-img {
+	overflow:hidden;
+	zoom:1;
+	white-space:nowrap;
+}
+
+.fd .tiao-img a {
+	display:inline-block;
+	margin-right:5px;
+	padding:1px;
+	border:1px solid #e8e8e8;
+	line-height:0;
+}
+
+/*寰??*/
+
+.fd-t .t-txt {
+    padding:8px 10px;
+    background:#f9fdf3;
+    border:1px solid #e3e3d3;
+    word-break:break-all;
+    word-wrap:break-word;
+    margin-bottom:5px;
+    margin-left:70px;
+    border-radius:2px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    *zoom:1;
+    position:relative\9/*浠??ie*/;
+}
+
+.fd .fd-t .from {
+
+}
+
+.fd .fd-t .ph {
+    color:#999;
+    width: 450px;
+    overflow: hidden;
+}
+
+.fd .fd-t .ph a {
+    display:inline-block;
+    padding-left:14px;
+    vertical-align:middle;
+
+}
+
+.fd .fd-t .ph .toggle {
+    background-position:-491px -16px;
+    font-size: 12px;
+}
+
+.fd .fd-t .ph .max {
+    background-position:-284px -204px;
+}
+
+.fd .fd-t .ph .opic {
+    background-position:-491px 4px;
+    font-size: 12px;
+}
+
+.fd .fd-t .ph img {
+    margin-top:5px;
+
+}
+.fd .fd-t .ph .small-img{
+    border: solid 1px #e3f0f4;
+}
+
+.fd-t .arrow {
+    display:inline-block;
+    width:6px;
+    height:5px;
+    position:absolute;
+    font-size:0;
+    margin-left: -16px;
+    background-position:-416px -8px;
+    display:none;
+}
+
+.fd-t .t-forward {
+    margin-top:10px;
+
+}
+
+.fd-t .t-forward .arrow {
+    width:11px;
+    height:7px;
+    margin-left:10px;
+    margin-top:-15px;
+    *margin-top:-14px;
+    background-position:-417px 0;
+
+}
+
+/*ie???
+<i class="rc lt"></i>
+<i class="rc rt"></i>
+<i class="rc lb"></i>
+<i class="rc rb"></i>
+*/
+
+.fd-t .rc {
+    position:absolute;
+    width:1px;
+    height:1px;
+    display:block;
+    overflow:hidden;
+    background:#fff;
+    margin:0;
+}
+
+.fd-t .lt {
+    left:-1px;
+    top:-1px;
+}
+
+.fd-t .rt {
+    right:-1px;
+    top:-1px;
+    _right:-2px;
+}
+
+.fd-t .lb {
+    left:-1px;
+    bottom:-1px;
+    _bottom:-2px;
+}
+
+.fd-t .rb {
+    right:-1px;
+    bottom:-1px;
+    _right:-2px;
+    _bottom:-2px;
+}
+
+
+.fd .big-img{
+    display: none;
+}
+
+/*修复微博feeds 标题会溢出的问题*/
+.fd .fd-t .title{
+    margin-left: 70px;
+}
+.fd  .star-shopping img{
+    vertical-align: middle;
+}
+
+.fd .price {
+    color:#666;
+    font-size:14px;
+}
+
+.fd .price .one-price {
+    font-weight:600;
+    text-decoration:line-through;
+}
+
+.fd .price .share-price {
+    font-weight:600;
+    color:#FF0000;
+}
+
+.fd .price strong,.fd .price em{
+    color:#E01216;
+}
+
+.fd .small-img{
+    cursor:url(http://a.tbcdn.cn/app/sns/img/big.cur), auto;
+}
+.fd .big-img{
+    cursor:url(http://a.tbcdn.cn/app/sns/img/small.cur), auto;
+}
+.fd .J_UnfoldMoreComment{
+    background: url(http://img04.taobaocdn.com/tps/i4/T1a_dIXltqXXXXXXXX-6-40.png) right 6px no-repeat;
+    padding-right: 11px;
+    font-size: 12px;
+}
+.fd .J_FoldMoreComment{
+    background: url(http://img04.taobaocdn.com/tps/i4/T1a_dIXltqXXXXXXXX-6-40.png) right -7px no-repeat;
+    padding-right: 11px;
+    font-size: 12px;
+
+}
+
+/* 淘分享买家秀 */
+.fd .buyer-show {
+    overflow:hidden;
+    zoom:1;
+    margin-left:115px;
+    margin-top:5px;
+}
+
+.fd .buyer-show .title {
+    margin-bottom:5px;
+    font-size:12px;
+}
+
+.fd .buyer-show .sns-pic {
+    float:left;
+    _display:inline;
+    margin-right:10px;
+}
+
+.fd .buyer-show .show-all {
+    display:inline-block;
+    vertical-align:bottom;
+    margin-top:35px;
+}
+
+.fd .fd-taoshare .q {
+
+    color:#525252;
+    padding-left:25px;
+    margin-left:90px;
+    background:url(http://img02.taobaocdn.com/tps/i2/T14d4PXX8yXXXXXXXX-16-15.png) no-repeat 0 4px;
+
+}
+.fd-t .fd-taoshare .inner{
+    overflow:hidden;
+}
+
+.fd .source {
+    display:inline-block;
+    margin-left:10px;
+}
+
+.fd .source em {
+    white-space:nowrap;
+    word-wrap:normal;
+    word-break:normal;
+}
+
+.fd .pic-tool {
+    padding-top:5px;
+    margin-top:5px;
+    border-top:1px dotted #cde4eb;
+}
+
+
+/*
+.ts-recom .matter .l-gray .ts-prev {
+	background-position:0 -35px;
+}
+
+.ts-recom .matter .r-gray .ts-next {
+	background-position:-49px 0;
+}
+*/
+
+/* 聚划算feeds by @etai */
+.feeds-ju{
+    margin:5px 0 3px;
+}
+.feeds-ju .pic{
+    float:left;
+    width:80px;
+    position:relative;
+}
+.feeds-ju .pic img{
+    width:80px;
+}
+.feeds-ju .desc{
+    margin:0 0 0 92px;
+    width:330px;
+    color:#999999;
+}
+.feeds-ju .desc span{
+    color:#666666;
+}
+.feeds-ju .desc p{
+    line-height: 1.2em;
+}
+.feeds-ju .desc strong{
+    color:#CC0002
+}
+
+/*重置删除icon的问题*/
+
+.fd .item .extra .icon-del-simple {
+    line-height:12px;
+    font-size:12px;
+    width:auto;
+    height:auto;
+    display:inline;
+    vertical-align:baseline;
+}
+
+
+
+.fd-jingpai .title strong {
+    color:#E01216;
+}
+
+.fd-jingpai .txt {
+    color:#666;
+}
+
+.fd-jingpai .share-goods .price strong {
+    color:#666;
+    font-weight:normal;
+}
+
+.fd-jingpai .q strong {
+    color:#E01216;
+    background:url("http://img01.taobaocdn.com/tps/i1/T1gPRJXkXvXXXXXXXX-15-12.png") no-repeat scroll 2px 1px transparent;
+    padding-left:20px;
+}
+
+.fd-jingpai .q {
+    color:#666;
+}
+.fd-fgo .txt {
+    overflow:hidden;
+    zoom:1;
+}
+
+.fd .price strong {
+    *background-position:0 -2720px;
+}
+
+/**********更新feeds***********/
+.more-feeds{
+    width:368px;
+    padding:10px;
+}
+.more-feeds h3{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.more-feeds .title{
+    margin-bottom: 10px;
+}
+.more-feeds li{
+    position: relative;
+    padding: 0 5px 5px 0px;
+    zoom:1;
+    overflow: hidden;
+    border-bottom:1px #e7e7e7 dashed;
+    margin-bottom: 5px;
+}
+
+/*links modified by hanyu 20110318*/
+.more-feeds ul li .desc a:link,
+.more-feeds ul li .desc a:visited,
+.more-feeds ul li .desc a:hover {
+    color:#9EA1A3;
+}
+
+.more-feeds ul li .title a.feeds-brief:link,
+.more-feeds ul li .title a.feeds-brief:visited,
+.more-feeds ul li .title a.feeds-brief:hover {
+    color:#474A4D;
+}
+
+.more-feeds .pic{
+
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border: solid 1px  gray;
+    float: left;
+    margin-right: 10px;
+
+}
+.more-feeds .content{
+    float: left;
+    width: 267px;
+    color:#9eaea3;
+}
+.more-feeds li{
+
+}
+.more-feeds li .price{
+    color:#9eaea3;
+}
+.more-feeds li .date{
+    clear: both;
+    color:#9eaea3;
+    line-height: 25px;
+}
+.more-feeds .begin, .more-feeds .end{
+    background: url(http://img02.taobaocdn.com/tps/i2/T1s_l0XmdpXXXXXXXX-20-70.png) no-repeat 0 0 ;
+    padding: 0 0 0 5px;
+    margin:0 5px;
+}
+
+.more-feeds .end{
+    background-position: -11px 0px;
+    margin-right: 10px;
+}
+.more-feeds .more{
+    text-align: right;
+}
+
+.more-share .fd-close,
+.more-share .fd-open{
+    position:absolute;
+    top:4px;
+    top:1px\9;
+    *top:2px;
+    _top:3px;
+    right:-20px;
+    display:block;
+    width:13px;
+    height:14px;
+    font-size:12px;
+    background:url(http://img02.taobaocdn.com/tps/i2/T1OjB3XiRpXXXXXXXX-20-70.png) no-repeat 0 -55px;
+}
+.more-share .fd-open{
+    background-position:0 -30px;
+}
+
+a.more-share:link,
+a.more-share:visited,
+a.more-share:hover {
+    text-decoration:none;
+}
+
+/*>>>>>>>>>> Start:好友的分享Feeds样式统一调整 by hanyu 2011-03-02 >>>>>>>>>>*/
+
+/*背景整合图*/
+.item .inner em,
+.transfer-txt em,
+.item .inner del,
+.price-contrast li label {
+    background:transparent url(http://img04.taobaocdn.com/tps/i4/T19JR4XmFnXXXXXXXX-60-138.png) no-repeat 0 0;
+}
+
+/*分享产品标题链接色*/
+a.share-brief:link,
+a.share-brief:visited,
+a.share-brief:hover {
+    color:#474A4D;
+}
+
+/*查看全部链接*/
+a.view-detail {
+    display:inline-block;
+    margin-left:5px;
+}
+
+/*fixed ie6/7 relative bug*/
+.fd .item,
+.fd-taoshare {
+    position:relative;
+}
+
+.fd .item .inner,
+.fd-taoshare .inner {
+    position:relative;
+    top:0;
+    left:0;
+}
+.fd .item .extra {
+    margin-top:20px;
+    text-align:right;
+}
+.fd .item .extra i {
+    margin:0 10px;
+    color:#c1e4e9;
+}
+
+/*分享产品详情*/
+.fd .item .txt,
+.fd .item .txt dl dd a:link,
+.fd .item .txt dl dd a:visited,
+.fd .item .txt dl dd a:hover,
+.transfer-txt dl dd a:link,
+.transfer-txt dl dd a:visited,
+.transfer-txt dl dd a:hover {
+    color:#9EA1A3;
+}
+.fd .item .txt dl dd {
+    line-height:1.5;
+}
+
+/*产品价格*/
+.item .inner em,
+.transfer-txt em,
+.item .inner del {
+    padding-left:12px;
+    height:9px;
+}
+
+/*更多分享按钮*/
+.more-share {
+    position:absolute;
+    left:112px;
+    bottom:0;
+}
+
+.fd .item .title s {
+    text-decoration:none;
+    color:#474A4D;
+}
+
+/*>>>>> 跟随购种子样式 >>>>>*/
+.fd .item .gsg-title {
+    font-size:14px;
+}
+
+.taoshare-gsg-bd {
+    margin-top:15px;
+    padding:15px;
+    border:1px solid #f3f3f3;
+    background-color:#fbfbfb;
+}
+.taoshare-gsg-txt,
+a.gsg-brief:link,
+a.gsg-brief:visited,
+a.gsg-brief:hover {
+    color:#9EA1A3;
+}
+
+/*跟随价*/
+.price-contrast li {
+    _display:inline;
+    float:left;
+    margin-right:30px;
+}
+.price-contrast li label {
+    display:inline-block;
+    overflow:hidden;
+    width:60px;
+    height:15px;
+    line-height:99;
+    vertical-align:middle;
+    background-position:0 -45px;
+}
+.price-contrast li strong {
+    display:inline-block;
+    margin-left:5px;
+    vertical-align:middle;
+    color:#d00;
+}
+
+/*追加分享用户图像*/
+.append-photo {
+    overflow:hidden;
+    margin-top:5px;
+    padding-bottom:10px;
+    width:100%;
+    border-bottom:1px dashed #e5e5e5;
+}
+.append-photo ul li {
+    _display:inline;
+    float:left;
+    margin-right:5px;
+}
+.append-photo ul li img {
+    float:left;
+    border:1px solid #e1e1e1;
+}
+
+/*叽歪feeds调整*/
+.transfer-txt {
+    padding-left:112px;
+}
+.transfer-txt .more-share .fd-close,
+.transfer-txt .more-share .fd-open {
+    top:2px;
+}
+
+.transfer-txt dl dd a.more-share:link,
+.transfer-txt dl dd a.more-share:visited,
+.transfer-txt dl dd a.more-share:hover {
+    color:#29a5c9 !important;
+}
+/*>>>>>>>>>> End:好友的分享Feeds样式统一调整 by hanyu 2011-03-02 >>>>>>>>>>*/
+
+
+
+/*----------更多feed 展开-------------------*/
+.show-more{
+    margin-left: 70px;
+    border-top:1px #c9c9c9 dashed;
+    margin-top: 20px;
+    padding-top:10px;
+    color: #000;
+    background-color: #f7f7f7;
+}
+.show-more em{
+    font-weight: bold;
+}
+.show-more .J_ShowMoreFeed{
+    background: url(http://img04.taobaocdn.com/tps/i4/T1k60_XnxlXXXXXXXX-8-7.png) 100% 70% no-repeat;
+    padding-right: 15px;
+}
+
+.mt-feed-btn{
+    background: url(http://a.tbcdn.cn/app/sns/img/opacity.gif);
+}
+
+.fd .btn a{
+    font-size:12px;
+    font-weight:normal;
+    color: #fff;
+}
+.fd .more-feeds .pic{
+    text-align: center;
+}
+.fd .more-feeds .pic a{
+    display: inline;
+}
+
+/*修复聚划算样式*/
+.fd-vote .taoshare-info .skin-blue-s a{
+ font-size:12px;
+    font-weight:normal;
+    color: #fff;
+    padding: 0;
+}
+
+.fd .matter .extra{
+    margin: 0;
+}
+
+/*------添加订阅类型------------*/
+
+.fd .avatar {
+    text-align: center;
+}
+.fd .avatar .subscribe-cancle {
+     color: #29A5C9;
+     cursor:pointer;
+     display: none;
+}
+.fd .hover .avatar .subscribe-cancle{
+    display: inline;
+}
+
+.fd-subscribe  .photo{
+    float:left;
+}
+.fd-subscribe  .photo{
+    float:left;
+}
+.fd-subscribe  .photo a{
+    display:block;
+    width:100px;
+    height:100px;
+    float: left;
+    border: solid 1px #eee;
+    margin-right: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+.fd-subscribe  .desp{
+    float:left;
+}
+
+.fd .J_viewMoreFresh{
+    zoom:1;
+    position:relative;
+}
+
+
+
+/*
+    Document   : widget-share
+    Created on : 2010-1-14, 9:53:43
+    Author     : zhangquan.tw
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/*分享弹出层*/
+
+.share-popup .sns-nf p{
+    height: auto;
+}
+.share-popup {
+    width:423px;
+    padding:10px 0 0 0;
+}
+.share-popup .logo {
+    background:url(http://a.tbcdn.cn/app/sns/img/taojianghu_logo.png) no-repeat;
+    width:193px;
+    height:29px;
+    margin:0 0 20px 10px;
+    display: none;
+}
+.share-popup .f-txt{
+    width:375px;
+    color:#333;
+    font-weight:bold;
+}
+.share-popup .content {
+    padding:15px 10px;
+}
+.share-popup .subject{
+    background: #F3F3F3;
+    padding: 5px;
+}
+.share-popup .reason {
+    margin-top:10px;
+}
+.share-popup .sns-nf label{
+    width: auto;
+}
+.share-popup  .url{
+    width: 375px;
+    overflow: hidden;
+    height: 20px;
+    word-spacing: normal;
+    color:#B0B0B0;
+}
+.share-popup .sns-nf .url{
+     height: 20px;
+}
+
+.share-popup .act {
+    margin:10px 0 0 72px;
+}
+.panel .sns-popup {
+    width:auto;
+}
+.share-popup .share-video .f-txt,.share-popup .share-video .url{
+    width:235px;
+}
+.share-popup .share-shop .f-txt,.share-popup .share-shop .url{
+    width:115px;
+}
+.share-popup .share-goods .f-txt,.share-popup .share-goods .url{
+    width: 285px;
+}
+.share-popup .share-album .f-txt,.share-popup .share-album .url{
+    width: 215px;
+}
+.share-url {
+    line-height:16px;
+}
+.share-txt {
+    color: #999;
+}
+.share-txt span, .share-txt p {
+    white-space:normal;
+    word-break:break-all;
+    overflow:hidden;
+}
+.share-act {
+    margin-top:5px;
+}
+.share-act .btn {
+    margin-right:5px;
+}
+.share-video {
+    min-height: 100px;
+    _height:100px;
+}
+.share-video .pic {
+    background:transparent url(http://a.tbcdn.cn/app/sns/img/feeds.png) no-repeat -150px -58px;
+    float: left;
+    position:relative;
+    height:92px;
+    width:120px;
+    padding:4px;
+}
+.share-video .pic .play-btn {
+    position: absolute;
+    top:30px;
+    left:40px;
+    width: 42px;
+    height: 42px;
+    background:transparent url(http://a.tbcdn.cn/app/sns/img/player-btn.png) no-repeat;
+    _background:none;
+ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://a.tbcdn.cn/app/sns/img/player-btn.png', sizingMethod='crop');
+    cursor: pointer;
+    display:block;
+}
+.share-video .share-txt {
+    width: 250px;
+    margin: 0 0 0 140px;
+    _height:42px;
+    min-height: 42px;
+}
+.share-blog {
+    width: 394px;
+    overflow: hidden;
+}
+.share-blog .hd {
+    background:transparent url(http://a.tbcdn.cn/app/sns/img/feeds.png) no-repeat 0px 0px;
+    height: 23px;
+    display: block;
+    overflow: hidden;
+    border: none;
+    padding: 0;
+}
+.share-blog .bd {
+    _height:10px;
+    min-height: 10px;
+    border: none;
+    padding: 0 5px 5px 5px;
+    border-left:solid 1px #e4e4e4;
+    border-right:solid 1px #e4e4e4;
+    margin-left: 5px;
+    white-space:normal;
+    word-break:break-all;
+    width: 377px;
+}
+.share-blog .bt {
+    background:transparent url(http://a.tbcdn.cn/app/sns/img/feeds.png) no-repeat 0px -25px;
+    height: 10px;
+    display: block;
+}
+.share-album .pic {
+    height: 130px;
+    float: left;
+    overflow: hidden;
+ *margin: 0 0 0 10px;
+}
+.album-bg {
+    display: inline-block;
+    position: relative;
+    padding: 3px 0 0 0px;
+    margin-left: 17px;
+    height: 130px;
+    background:transparent url(http://a.tbcdn.cn/app/sns/img/feeds.png) repeat-x 0px -190px;
+}
+.album-bg .lbg {
+    background:transparent url(http://a.tbcdn.cn/app/sns/img/feeds.png) no-repeat 0px -58px;
+    display: block;
+    position: absolute;
+    top:0;
+    left:-17px;
+    height: 130px;
+    width: 20px;
+}
+.album-bg .rbg {
+    background:transparent url(http://a.tbcdn.cn/app/sns/img/feeds.png) no-repeat -142px -58px;
+    display: block;
+    position: absolute;
+    top:0;
+    right:0;
+    height: 130px;
+    width: 8px;
+}
+.album-bg img {
+    margin-right: 5px;
+}
+.album-bg .img {
+    display: block;
+    width: 120px;
+    height: 120px;
+}
+.share-album .share-txt {
+    width: 230px;
+    margin: 0 0 0 160px;
+    _height:132px;
+    min-height: 132px;
+}
+.share-shop {
+}
+.share-shop .pic {
+    border: solid 1px #e4e4e4;
+    padding: 20px 10px 5px 10px;
+    position: relative;
+    float: left;
+    width: 230px;
+    background-color: #FFF;
+}
+.share-shop .pic .bg {
+    background:transparent url(http://a.tbcdn.cn/app/sns/img/feeds.png) no-repeat 0px -40px;
+    height: 18px;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+}
+.share-shop .pic .cover {
+    float: left;
+}
+.share-shop .pic .intro {
+    margin: 0 0 0 100px;
+}
+.share-shop .share-txt {
+    width: 130px;
+    margin: 0 0 0 260px;
+    _height:110px;
+    min-height: 110px;
+}
+.share-goods .pic {
+    float: left;
+    width: 80px;
+    height:80px;
+    overflow: hidden;
+}
+.share-goods .share-txt {
+    width: 300px;
+    margin: 0 0 0 90px;
+    _height:80px;
+    min-height: 80px;
+}
+.share-goods .share-txt .price {
+    color: #cc0002;
+}
+.share-audio {
+    width:219px;
+}
+.share-audio .audio {
+    margin:5px 0;
+}
+
+/*common*/
+.sns-tab{
+    position:relative;
+    z-index:1;
+}
+.sns-tab ul{
+    *zoom:1;
+    position:relative;
+    z-index:10;
+}
+.sns-tab ul:after{
+    content:"";
+    height:0;
+    display:block;
+    clear:both;
+}
+.sns-tab ul li{
+    float:left;
+    *display:inline;
+    position:relative;
+    z-index:10;
+    margin:0 3px;
+}
+.sns-tab ul li a{
+    float:left;
+    padding:0 10px;
+    text-decoration:none;
+}
+.sns-tab .tab-opt{
+    position:absolute;
+    right:5px;
+    top:-2px;
+    _top:-1px;
+    z-index:10;
+}
+/*tab-app:各应用的标签页*/
+.tab-app ul{
+    border-bottom:1px solid #dcdcdc;
+    padding-left:10px;
+    margin-bottom:-1px;
+}
+.tab-app ul li{
+    margin-bottom:-1px;
+}
+.tab-app li a,.tab-app li a:visited{
+    height:25px;
+    line-height:25px;
+    font-weight:700;
+    color:#313131;
+    text-decoration:none;
+}
+.tab-app li a:hover{
+    border:1px solid #dcdcdc;
+    border-bottom:none;
+    height:23px;
+    line-height:23px;
+    padding:0 9px;
+    background-color:#fff;
+    margin-bottom:1px;
+    text-decoration:none;
+}
+.tab-app li.selected{
+    border:1px solid #DCDCDC;
+    border-bottom:none;
+    background-color:#fff;
+}
+.tab-app li.selected a{
+    height:24px;
+    line-height:23px;
+}
+.tab-app li.selected a,.tab-app li.selected a:visited{
+    color:#E01216;
+    text-decoration:none;
+}
+.tab-app li.selected a:hover{
+    border:none;
+    height:24px;
+    line-height:23px;
+    _line-height:25px;
+    margin:0;
+    padding:0 10px;
+}
+
+
+/*短域名 by hanyu 20101208*/
+.url-inner {
+	display:inline-block;
+}
+.url-wrapper {
+	position:absolute;
+	z-index:199;
+	display:none;
+}
+.native-url {
+	position:relative;
+	display:block;
+	_display:inline-block;
+	padding:3px;
+	height:28px;
+	border:1px solid #898989;
+	background-color:#F0F0F0;
+}
+.native-url b {
+	display:block;
+	_display:inline-block;
+	padding:0 2px;
+	_width:auto;
+	height:28px;
+	line-height:28px;
+	white-space:nowrap;
+	font-weight:normal;
+	background-color:#fff;
+}
+.native-url s {
+	position:absolute;
+	top:-6px;
+	left:6px;
+	display:block;
+	width:11px;
+	height:6px;
+	background:url(http://img03.taobaocdn.com/tps/i3/T1B8dTXj0xXXXXXXXX-11-6.png) no-repeat 0 0;
+}

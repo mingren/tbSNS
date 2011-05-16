@@ -1,0 +1,29 @@
+.microblog-suggest{
+    width: 152px;
+    line-height:20px;
+
+
+
+}
+.microblog-suggest .title{
+    color:#999;
+    padding: 0 10px;
+    background: #fff;
+}
+
+.microblog-suggest .content li{
+    display: block;
+    padding: 0px 10px;
+    color: #666;
+    height:23px;
+    line-height: 23px;
+    width: 132px;
+    overflow: hidden;
+    white-space:nowrap;
+
+}
+.microblog-suggest  .content .hover{
+    background: #f3f3f3;
+    text-decoration: none;
+}
+

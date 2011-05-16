@@ -1,0 +1,31 @@
+/**
+ *  @description 登录弹窗组件的样式
+ *  @author 鸣人(mingren@taobao.com)
+ *  @date 2011.05.09
+ *
+ */
+
+.close-btn {
+	color:#828282;
+	text-decoration:none;
+	font-size:18px;
+	font-weight:bold;
+	position:absolute;
+	right:12px;
+	top:5px;
+	cursor:pointer;
+}
+
+.popup-login {
+	position:absolute;
+	border:1px solid #808080;
+	-moz-box-shadow:2px 2px 5px #666;
+	-webkit-box-shadow:2px 2px 5px #666;
+	box-shadow:2px 2px 5px #666;
+}
+
+.login-content {
+	border:5px solid #D9D9D9;
+	background-color:#FAFAFA;
+	padding:20px;
+}

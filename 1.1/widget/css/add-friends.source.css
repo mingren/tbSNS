@@ -1,0 +1,336 @@
+/**
+ *  @description 加好友 组件 样式
+ *  @author 鸣人(mingren@taobao.com)
+ *  @date 2011.04.11
+ */
+
+.ks-overlay {
+	position:absolute;
+}
+
+.add-friend-popup .pic {
+	display:block;
+	border:1px solid #F3F3F3;
+	width:60px;
+	height:60px;
+}
+
+.add-friend-popup .pic img {
+	vertical-align:middle;
+}
+
+.add-friend-popup .bd {
+	overflow:auto;
+	*zoom:1;
+}
+
+.add-friend-popup .left-col {
+	float:left;
+}
+
+.add-friend-popup .right-col {
+	line-height:22px;
+	margin-left:10px;
+	width:302px;
+	float:left;
+}
+
+.add-friend-popup .right-col p {
+	line-height:20px;
+	margin-bottom:5px;
+}
+
+.add-friend-popup .right-col .question {
+	width:226px;
+	height:25px;
+	vertical-align:middle;
+}
+
+.add-friend-popup .right-col .success {
+	padding:8px 0 0;
+}
+
+.add-friend-popup .right-col .name, .add-friend-popup .right-col .name:hover {
+	color:#000;
+}
+
+.add-friend-popup .grey {
+	color:#838383
+}
+
+.add-friend-popup .success-msg, .add-friend-popup .tip-msg {
+	text-align:left;
+	margin:10px 0;
+	line-height:20px;
+	font-size:14px;
+	padding-left:80px;
+	background:url("http://a.tbcdn.cn/sys/common/img/msg_bg.png") no-repeat 36px -597px;
+}
+
+.add-friend-popup .tip-msg {
+	background-position:36px -698px;
+}
+
+.add-friend-popup .tip-msg p {
+	padding:5px 0;
+}
+
+.add-friend-popup .success-msg p {
+	margin-bottom:10px;
+	padding-top:7px;
+}
+
+.add-friend-popup .answer {
+	height:25px;
+	border:1px solid #C0C6C9;
+	width:224px;
+	vertical-align:middle;
+}
+
+.add-friend-popup .msg {
+	margin-top:5px;
+}
+
+.add-friend-popup .msg .error, .add-friend-popup .msg .attention {
+	width:255px;
+}
+
+.add-friend-popup .action-msg {
+	color:#FF7E00;
+}
+
+.add-friend-popup .req-txt {
+	resize:none;
+	height:34px;
+	width:288px;
+}
+
+.add-friend-popup .may-friends .pic {
+	width:60px;
+	height:60px;
+}
+
+.add-friend-popup .may-friends li {
+	width:90px;
+	height:auto;
+	margin-right:5px;
+
+	text-align:center;
+	margin-bottom:10px;
+	padding:10px 0 10px;
+	background-color:#F7F8F9;
+	border:1px solid #D5DFE5;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+
+.add-friend-popup .may-friends {
+	border-bottom:none;
+}
+
+.add-friend-popup .success-recommend, .add-friend-popup .success-mayknow {
+	padding-left:21px;
+	line-height:20px;
+	background:url("http://a.tbcdn.cn/sys/common/img/msg_bg.png") no-repeat scroll 0 -247px transparent;
+}
+
+.add-friend-popup .user-list {
+	margin-top:10px;
+	max-height:140px;
+	/* set max-height for IE6 */  
+	_height:expression(this.scrollHeight > 140 ? "140px" : "auto");
+	overflow:auto;
+	margin-left:22px;
+}
+
+.add-friend-popup .user-list li {
+	float:left;
+	overflow:hidden;
+	white-space:nowrap;
+	width:88px;
+	margin-bottom:10px;
+}
+
+.add-friend-popup .user-list input {
+	vertical-align:middle;
+	margin-right:3px;
+}
+
+.add-friend-popup .user-list .name {
+	display:inline-block;
+	overflow:hidden;
+	vertical-align:middle;
+	width:50px;
+}
+
+/* 验证码 */
+.add-friend-popup .sns-nf {
+	padding:10px;
+}
+
+
+/*复用sns的dpl-popupBox.css*/
+
+.add-friend-popup {
+	background:url('http://img02.taobaocdn.com/tps/i2/T1PKF_XlXkXXXXXXXX-1-1.png') repeat 0 0;
+	padding:6px;
+	border:none;
+	position:absolute;
+
+    /** nice addon **/
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    z-index: 5000;
+
+	*background:none;
+	*padding:0;
+	*border:6px solid #B2B2B2;
+	background:none\0;
+	padding:0\0;
+	border:6px solid #B2B2B2\0;
+}
+
+.add-friend-popup .hd {
+    height: 27px;
+    line-height: 27px;
+    padding-left: 8px;
+    background-color: #EAF2F7;
+	border-bottom:1px solid #D8DEEC;
+	display:block;
+}
+.add-friend-popup .hd h3 {
+    color: #000;
+    font-size: 12px;
+}
+
+.add-friend-popup .bd {
+    background-color: #FFF;
+    color: #333;
+    padding: 20px 0 20px 20px;
+    line-height: 1.5em;
+}
+
+.add-friend-popup .ft {
+	background-color:#F7F7F7;
+	border:1px solid #E3E3E3;
+}
+
+.add-friend-popup .ft .buttons {
+    padding: 4px 0;
+    text-align: center;
+}
+.add-friend-popup .ft .buttons a {
+    border: 1px solid #DD6D0D;
+    background: url("http://img03.taobaocdn.com/tps/i3/T1P1F_XlhkXXXXXXXX-1-46.png") repeat-x 0 0;
+	display:inline-block;
+	*zoom:1;
+    color: #fff;
+	font-weight:bold;
+    font-size: 12px;
+    height: 23px;
+    line-height: 23px;
+	margin-right: 10px;
+	overflow: visible;
+	cursor:pointer;
+	text-decoration:none;
+	padding:0 10px;
+}
+.add-friend-popup .ft .buttons .cancel {
+	background: url("http://img03.taobaocdn.com/tps/i3/T1P1F_XlhkXXXXXXXX-1-46.png") repeat-x 0 -23px;
+	border:1px solid #9A9A9B;
+	color:#777777;
+}
+
+.add-friend-popup .ft .btn-close {
+    color: #98ABBA;
+    position: absolute;
+    top: 6px;
+    right: 15px;
+    font-size: 16px;
+    text-decoration: none;
+	_top:3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*继承自tbsp，用于兼容tbsp-sns*/
+.msg .error, .msg .stop, .msg .alert, .msg .attention, .msg .tips, .msg .ok, .msg .notice, .msg .question, .msg .help, .msg .small-help {
+    background: url("http://a.tbcdn.cn/sys/common/img/msg_bg.png") no-repeat scroll 0 0 transparent;
+    border: 1px solid #DDDDDD;
+    color: #404040;
+    float: left;
+    line-height: 18px;
+    padding: 2px 10px 2px 23px;
+}
+
+.msg .error {
+    background-color: #FFF2F2;
+    background-position: 3px 3px;
+    border-color: #FF8080;
+}
+
+.msg .attention {
+    background-color: #E5F5FF;
+    background-position: 3px -147px;
+    border-color: #40B3FF;
+}
+
+/*继承自可能认识的人*/
+.add-friend-popup .may-friends li:hover {
+	background-color:#F7F8F9;
+	border:1px solid #D5DFE5;
+}
+
+.add-friend-popup .may-friends li p {
+	margin:0 auto 5px;
+}
+
+.add-friend-popup .may-friends .pic {
+	width:80px;
+	height:80px;
+	border:1px solid #F3F3F3
+}
+
+.add-friend-popup .may-friends .name, add-friend-popup .may-friends .name:hover {
+	color:#000;
+}
+
+.add-friend-popup .may-friends .info {
+	color:#C0C6C9;
+}
+
+.add-friend-popup .may-friends .add-friend {
+	display:block;
+	height:20px;
+	width:64px;
+	text-align:center;
+	border:1px solid #66CC66;
+	background-color:#EEFFEE;
+	color:#339933;
+	cursor:pointer;
+	margin:0 auto;
+	text-decoration:none;
+}
+
+.add-friend-popup .may-friends .add-friend:link, add-friend-popup .may-friends .add-friend:visited {}
+
+.add-friend-popup .may-friends .add-friend:hover, add-friend-popup .may-friends .add-friend:active {
+	color:#fff;
+	background-color:#339933;
+	border:1px solid #337733;
+}
+
+.add-friend-popup .may-friends .common-friend {
+	cursor:pointer;
+}
